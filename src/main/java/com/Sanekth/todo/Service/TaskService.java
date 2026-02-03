@@ -18,5 +18,10 @@ public class TaskService {
     }
 
 
-
+    public void creatNewTask(String taskname ) {
+        Task task=new Task();
+        task.setTitle(taskname);
+        task.setCompleted(false);
+        taskRepository.save(task);
+    }
 }

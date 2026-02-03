@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -25,7 +26,13 @@ public class TaskController {
     public String getTask(Model model)
     {
         List<Task> taskList=taskService.getAllTask();
-        model.addAttribute("task",taskList);
+        model.addAttribute("tasks",taskList);
         return "tasks";
+    }
+    @GetMapping
+    public String creatTask(@RequestParam String taskname)
+    {
+        taskService.creatNewTask(taskname);
+        return "redirect:/";
     }
 }

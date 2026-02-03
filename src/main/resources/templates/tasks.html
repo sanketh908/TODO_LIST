@@ -6,10 +6,11 @@
 </head>
 <body>
 <h1>TODO Application</h1>
-<div> <th:block th:each="task : ${tasks}" > </th:block>
+<div> <th:block th:each="task : ${tasks}" >
     <div>
         <span th:text="${task.title}">Task title </span>
     </div>
+</th:block>
 </div>
 </body>
 </html>
