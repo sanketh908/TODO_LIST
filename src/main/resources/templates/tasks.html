@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO Application</title>
+</head>
+<body>
+<h1>TODO Application</h1>
+<div> <th:block th:each="task : ${tasks}" > </th:block>
+    <div>
+        <span th:text="${task.title}">Task title </span>
+    </div>
+</div>
+</body>
+</html>
