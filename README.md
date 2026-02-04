@@ -28,25 +28,3 @@ This app allows users to create, view, toggle, and delete tasks.
 
 ---
 
-## 📂 Project Structure
-
-com.Sanekth.todo
-│
-├── Controller
-│ └── TaskController.java
-│
-├── Service
-│ └── TaskService.java
-│
-├── Repository
-│ └── TaskRepository.java
-│
-├── model
-│ └── Task.java
-│
-├── resources
-│ ├── templates
-│ │ └── tasks.html
-│ └── application.properties
-│
-└── TodoApplication.java
