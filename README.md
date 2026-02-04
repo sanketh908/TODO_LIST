@@ -27,4 +27,12 @@ This app allows users to create, view, toggle, and delete tasks.
 - Maven
 
 ---
+## 🌐 Endpoints
+
+| Method | URL              | Description             |
+|------|------------------|-------------------------|
+| GET  | `/`              | View all tasks          |
+| POST | `/`              | Create a new task       |
+| GET  | `/{id}/toggle`   | Toggle task status      |
+| GET  | `/{id}/delete`   | Delete a task           |
 
