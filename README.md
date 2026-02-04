@@ -38,7 +38,7 @@ This app allows users to create, view, toggle, and delete tasks.
 
 
 ---
-Screenshot
+## Screenshot
 
 <img width="1917" height="863" alt="image" src="https://github.com/user-attachments/assets/2e8bdfc7-dabd-4186-9300-eeb76d0b8a3f" />
 
