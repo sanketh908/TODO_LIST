@@ -36,3 +36,6 @@ This app allows users to create, view, toggle, and delete tasks.
 | GET  | `/{id}/toggle`   | Toggle task status      |
 | GET  | `/{id}/delete`   | Delete a task           |
 
+👨‍💻 Author
+
+Sanekth
